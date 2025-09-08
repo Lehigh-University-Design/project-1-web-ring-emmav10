@@ -1,0 +1,72 @@
+body {
+    font-family: "indivisible", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+    background-image: url("../assets/paper-texture-eeeacb.png");
+    background-color: #eeeacb;
+    color: #0e0a50;
+}
+
+main {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  color:#0056b3
+}
+
+#head h3 a {
+  color: var(--dark-color);
+  text-decoration:wavy underline;
+}
+
+h1 {
+    color: #0056b3;
+    font-family: "envelove", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 18px;
+}
+
+p1  {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p2{
+    font-size: 14px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+a {
+    font-size: 12px;
+    color: #0056b3;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+}
