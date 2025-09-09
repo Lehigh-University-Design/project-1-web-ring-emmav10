@@ -1,3 +1,11 @@
+:root {
+    --dark-color: #1C0B19;
+    --light-color: #5BC0EB;
+    --link-color: #0056b3;
+    --hover-color: #C3423F;
+    --lightest-color: #eeeacb;
+}
+
 body {
     font-family: "indivisible", sans-serif;
     font-weight: 500;
@@ -5,7 +13,7 @@ body {
     margin: 20px;
     background-image: url("../assets/paper-texture-eeeacb.png");
     background-color: #eeeacb;
-    color: #0e0a50;
+    color: #0056b3;
 }
 
 main {
@@ -13,6 +21,29 @@ main {
   max-width: 1080px;
   margin: 0 auto;
 }
+
+.post {
+  border: 3px solid var(--link-color);
+  border-radius: 10px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  padding: .5em 1em;
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: var(--hover-color);
+    color: var(--lightest-color);
+  }
+}
+
+#post {
+  margin-bottom: 1em;
+  margin-top: 2em;
+  padding: .5em 1em;
+}
+
 
 #head {
   display: flex;
@@ -69,4 +100,29 @@ main {
   position: relative;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+  gap: 20px; /* space between columns */
+}
+.column {
+  flex: 1; /* each column takes equal width */
+  padding: 25px;
+  background: var(--lightest-color);
+  border-radius: 10em;
+  text-align: center;
+  img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
