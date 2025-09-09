@@ -126,3 +126,67 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+/* trying an animation from the internet again */
+#body {
+  margin:0px;
+  font-family:"indivisible", sans-serif;
+  font-weight:lighter;
+  text-align:center;
+  font-size: 400px;
+}
+
+.special-headline {
+  font-weight: bold;
+  font-size:64px;
+}
+
+#container {
+  color: var(--link-color);
+  font-size:64px;
+  padding-top:80px;  
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+  height:190px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color: var(--lightest-color);
+  font-family:"envelove", sans-serif;
+  border-radius: .5em;
+  padding:8px 48px;
+  height:120px;
+  margin-bottom:70px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: var(--light-color);
+}
+#flip div:first-child div {
+  background: var(--hover-color);
+}
+#flip div:last-child div {
+  background: var(--dark-color);
+}
+
+@keyframes show {
+  0% {margin-top:-570px;}
+  5% {margin-top:-380px;}
+  33% {margin-top:-380px;}
+  38% {margin-top:-190px;}
+  66% {margin-top:-190px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-570px;}
+}
