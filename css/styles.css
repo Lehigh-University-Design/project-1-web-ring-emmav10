@@ -112,11 +112,19 @@ main {
   background: var(--lightest-color);
   border-radius: 10em;
   text-align: center;
+  display: flex;
+  flex-direction: column; 
+  .column-inner {
+    flex: 1; /* each column takes equal width */
+    align-content: center;
+  }
   img{
     width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
+    max-width: fit-content;
+    margin-inline: auto;
   }
 }
 
