@@ -44,11 +44,13 @@ main {
   padding: .5em 1em;
 }
 
-
 #head {
   display: flex;
-  justify-content: space-between;
-  color:#0056b3
+  justify-content:space-evenly;
+  color:#0056b3;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  padding: .5em 1em;
 }
 
 #head h3 a {
