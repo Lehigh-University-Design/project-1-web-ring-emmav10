@@ -160,7 +160,7 @@ footer {
 #container {
   color: var(--link-color);
   font-size:64px;
-  padding-top:80px;  
+  padding-top:0px;  
   width:100%;
   bottom:45%;
   display:block;
@@ -205,3 +205,16 @@ footer {
   99.99% {margin-top:0px;}
   100% {margin-top:-570px;}
 }
+
+#myDIV div {
+        width: 100px;
+        height: 100px;
+        margin-top:40px;
+        margin-bottom: 80px;
+        position: relative;
+        animation: mymove 5s forwards;
+        }
+        @keyframes mymove {
+        from {left: 0px;}
+        to {left: 440px;}
+        }
