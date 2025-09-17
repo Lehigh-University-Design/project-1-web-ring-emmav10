@@ -44,7 +44,7 @@ main {
   padding: .5em 1em;
 }
 
-#head {
+#head h2 a {
   color:#eeeacb;
   background-color: var(--link-color);
   border-radius: 10px;
@@ -52,7 +52,7 @@ main {
 }
 
 #head h3 a {
-  color: var(--lightest-color);
+  color: var(--link-color);
   text-decoration:wavy underline;
   font-size: larger;
 }
