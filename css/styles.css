@@ -45,17 +45,16 @@ main {
 }
 
 #head {
-  display: flex;
-  justify-content:space-evenly;
-  color:#0056b3;
-  background-color: var(--light-color);
+  color:#eeeacb;
+  background-color: var(--link-color);
   border-radius: 10px;
   padding: .5em 1em;
 }
 
 #head h3 a {
-  color: var(--dark-color);
+  color: var(--lightest-color);
   text-decoration:wavy underline;
+  font-size: larger;
 }
 
 h1 {
